@@ -72,16 +72,3 @@ JWT_SECRET=your_secret_key
 ├── .env.example                → Variables de entorno modelo  
 ├── errors.log                  → Archivo de errores generado por Winston  
 ├── app.js                      → Archivo principal de la app  
-
----
-
-## ✅ Estado de los requisitos
-
-| Requisito                                                          | Estado |
-|--------------------------------------------------------------------|--------|
-| Generación de datos mock en MongoDB                                | ✅     |
-| Encriptación de contraseñas mock                                   | ✅     |
-| Logger con Winston (niveles HTTP y ERROR)                          | ✅     |
-| Separación de entornos con .env y .env.example                     | ✅     |
-| Archivo .env ignorado en .gitignore                                | ✅     |
-| Logging en consola y archivo (errors.log)                          | ✅     |
